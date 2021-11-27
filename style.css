@@ -5,7 +5,7 @@
     background-color: #D7D5BE;
     padding: 1rem;
     border-radius: 20px;
-    width: 600px;
+    width: 500px;
     margin: auto;
     margin-top: 10%;
   }
@@ -15,12 +15,21 @@
     flex-direction: column;
     margin: 50px;
   }
+
+label {
+    margin-bottom: 5px;
+}
+
+#input_amount,
+#input_currency {
+    margin-bottom: 20px;
+}
   
 .button-box {
     width: 100%;
     display: flex;
     flex-direction: row;
-  }
+}
   
 #convert,
 #replace {
@@ -31,25 +40,29 @@
     background-color: #3c4d37;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.5rem;
-  }
+    height: 50px;
+    width: 100px;
+}
+
   
 button:hover {
     cursor: pointer;
-  }
+}
 
 .output_box {
     margin: 50px;
 }
   
 span {
-    display: block;
-    color: #3c4d37;
-  }
+    /* display: block; */
+    color: #2b6e7a;
+    text-decoration: underline;
+}
   
 select,
 input {
     font-size: 1rem;
-  }
+}
   
