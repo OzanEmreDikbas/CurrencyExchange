@@ -15,25 +15,32 @@
   <body>
     <div class="container">
       <div class="input_box">
+
         <label for="input_amount">Please enter the amount: </label>
         <input id="input_amount" type="number" placeholder="Enter an amount" />
+
         <label for="input_currency">From: </label>
         <select id="input_currency">
           <option>USD</option>
         </select>
+
         <label for="output_currency">To: </label>
         <select id="output_currency">
           <option>EUR</option>
         </select>
+
       </div>
+
       <button id="convert">Convert</button>
       <button id="replace"><i class="fas fa-exchange-alt"></i></button>
+
       <div class="output_box">
-        <p id="entered">Entered amount: <span> </span></p>
-        <p id="converted">Converted amount: <span> </span></p>
+        <p id="entered">Entered Amount: <span> </span></p>
+        <p id="converted">Converted Amount: <span> </span></p>
         <p id="currency1"></p>
         <p id="currency2"></p>
       </div>
+
     </div>
 
     <script src="app.js"></script>
