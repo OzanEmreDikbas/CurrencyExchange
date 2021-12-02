@@ -41,6 +41,12 @@ label {
     margin-bottom: 20px;
 }
   
+select,
+input {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+} 
+ 
 .button-box {
     width: 100%;
     display: flex;
@@ -93,10 +99,5 @@ span {
     color: #2b3d26;
     text-decoration: underline;
 }
-  
-select,
-input {
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-}
+
   
