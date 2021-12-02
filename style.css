@@ -1,13 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
 .container {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(images/money1.jpeg);
+    background-position: center;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.main {
+    font-family:'Times New Roman', Times, serif;
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #D7D5BE;
-    padding: 1rem;
+    background-color: rgba(215, 213, 190, 0.6);
+    padding: 20px;
     border-radius: 20px;
     width: 500px;
     margin: auto;
-    margin-top: 10%;
   }
   
 .input_box {
@@ -31,8 +47,7 @@ label {
     flex-direction: row;
 }
   
-#convert,
-#replace {
+#convert {
     text-transform: uppercase;
     display: block;
     margin: auto;
@@ -44,6 +59,24 @@ label {
     padding: 0.5rem;
     height: 50px;
     width: 100px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#replace {
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #3c4d37;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: 50px;
+    width: 80px;
+    font-size: larger;
 }
 
   
@@ -57,12 +90,13 @@ button:hover {
   
 span {
     /* display: block; */
-    color: #2b6e7a;
+    color: #2b3d26;
     text-decoration: underline;
 }
   
 select,
 input {
-    font-size: 1rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
   
